@@ -1,0 +1,39 @@
+System Resource Usage: 
+
+CPU: 
+%Cpu(s):  0.0 us,  4.8 sy,  0.0 ni, 95.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+-----------------------
+Memory Usage: 
+
+               total        used        free      shared  buff/cache   available
+Mem:           914Mi       349Mi       144Mi       2.7Mi       577Mi       564Mi
+Swap:             0B          0B          0B
+-----------------------
+Disk Usage: 
+
+Filesystem       Size  Used Avail Use% Mounted on
+/dev/root        6.8G  2.0G  4.8G  29% /
+tmpfs            458M     0  458M   0% /dev/shm
+tmpfs            183M  892K  182M   1% /run
+tmpfs            5.0M     0  5.0M   0% /run/lock
+efivarfs         128K  3.6K  120K   3% /sys/firmware/efi/efivars
+/dev/nvme0n1p16  881M   76M  744M  10% /boot
+/dev/nvme0n1p15  105M  6.1M   99M   6% /boot/efi
+tmpfs             92M   12K   92M   1% /run/user/1000
+-----------------------
+Network usage: 
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    RX:  bytes packets errors dropped  missed   mcast           
+         33999     316      0       0       0       0 
+    TX:  bytes packets errors dropped carrier collsns           
+         33999     316      0       0       0       0 
+2: ens5: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9001 qdisc mq state UP mode DEFAULT group default qlen 1000
+    link/ether 0e:6f:c1:c7:c4:49 brd ff:ff:ff:ff:ff:ff
+    RX:  bytes packets errors dropped  missed   mcast           
+      46452718  175568      0       0       0       0 
+    TX:  bytes packets errors dropped carrier collsns           
+      14324646  136338      0       0       0       0 
+    altname enp0s5
+-----------------------
